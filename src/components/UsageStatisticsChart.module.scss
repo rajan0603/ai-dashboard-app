@@ -1,0 +1,30 @@
+// src/components/UsageStatisticsChart.module.scss
+
+.chartContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .chart {
+        width: 48%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 20px;
+
+        h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        canvas {
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
+
+
+
+
+

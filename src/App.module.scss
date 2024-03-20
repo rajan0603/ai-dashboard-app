@@ -1,0 +1,15 @@
+/* App.module.scss */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Two columns for desktop */
+    gap: 20px; /* Gap between grid items */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Single column for mobile */
+    }
+}
+
